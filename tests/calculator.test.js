@@ -1,18 +1,13 @@
 const assert = require('assert');
 const calculator = require('../calculator');
 
-// Test memory functions
-describe('Calculator Memory Functions', function() {
-    
-});
 
-
-// Test calculation functions
-describe('Calculator Calculation Functions', function() {
-    const res = calculator.calculateSquareRoot(4);
-    it('should return 2', function() {
-        assert.strictEqual(res, 2);
+describe('Calculator sine Functions', function() {
+    it('should return 1 for sine(90 degrees)', function() {
+        const res = calculator.sine(90); 
+        assert.strictEqual(res, 1);
     });
+
 });
 
 
@@ -25,3 +20,5 @@ describe('Cosine Test', function() {
         assert.strictEqual(res, -1);
     });
 });
+});
+

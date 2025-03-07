@@ -1,5 +1,4 @@
 
-
 // TODO: Fix the square root function not displaying
 function calculateSquareRoot(value) {
     
@@ -28,7 +27,8 @@ function naturalLog(value) {
 
 // TODO: Implement sine function
 function sine(value) {
-    // return the sine of the value
+    const radians = value * (Math.PI / 180); 
+    return Math.sin(radians);
 }
 
 // Function takes in a RADIAN value and returns the cosine value of that.
@@ -39,6 +39,7 @@ function cosine(value) {
 // TODO: Implement tangent function
 function tangent(value) {
     // return the tangent of the value
+    return Math.tan(value)
 }
 
 
@@ -47,5 +48,6 @@ function tangent(value) {
 module.exports = {
     calculateSquareRoot,
     calculateSquare,
-    calculateReciprocal
+    calculateReciprocal,
+    sine
 };
