@@ -9,6 +9,8 @@ function calculateSquareRoot(value) {
 function calculateSquare(value) {
     // Hint: Use exponentiation
     // return the square root of the value
+	if (val < 0) return "No negatives!";
+	return Math.sqrt(value);
 
 }
 
