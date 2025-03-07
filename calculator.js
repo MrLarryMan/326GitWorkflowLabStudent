@@ -31,9 +31,9 @@ function sine(value) {
     return Math.sin(radians);
 }
 
-// TODO: Implement cosine function
+// Function takes in a RADIAN value and returns the cosine value of that.
 function cosine(value) {
-    // return the cosine of the value
+    return Math.cos(value);
 }
 
 // TODO: Implement tangent function
