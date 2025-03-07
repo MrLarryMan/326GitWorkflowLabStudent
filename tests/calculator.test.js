@@ -13,7 +13,13 @@ describe('Calculator Calculation Functions', function() {
     it('should return 2', function() {
         assert.strictEqual(res, 2);
     });
+
+    const resTan = calculator.tangent(0);
+    it('should return 0', function() {
+        assert.strictEqual(resTan, 0);
+    });
 });
+
 
 
 // Add your tests here
